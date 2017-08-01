@@ -5,7 +5,7 @@ app.use(express.static('public'));
 console.log(__dirname);
 
 
-var server = app.listen(port;, function () {
+var server = app.listen(port, function () {
 
   //var host = server.address().address
   //var port = server.address().port
